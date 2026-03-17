@@ -1,4 +1,4 @@
-# DL – Convolutional Autoencoder for Image Denoising
+# Convolutional Autoencoder for Image Denoising
 ## AIM
 To develop a convolutional autoencoder using PyTorch for removing noise from images.
 
