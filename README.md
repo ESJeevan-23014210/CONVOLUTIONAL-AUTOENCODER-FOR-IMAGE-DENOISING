@@ -35,9 +35,4 @@ Artificial Gaussian noise is added to images to train the denoising model.
 - Show Original, Noisy, and Denoised images
 
 ## RESULT
-The convolutional autoencoder successfully learned to remove noise from MNIST images.
-The denoised output images are significantly clearer than the noisy inputs and closely resemble the original images.
-This demonstrates that the model effectively captures important image features and removes noise.
-The convolutional autoencoder successfully learned to remove noise from MNIST images.
-The denoised output images are significantly clearer than the noisy inputs and closely resemble the original images.
-This demonstrates that the model effectively captures important image features and removes noise.
+The convolutional autoencoder effectively removes noise and reconstructs clear images similar to the original.
