@@ -9,30 +9,30 @@ Artificial Gaussian noise is added to images to train the denoising model.
 
 ## Design Steps
 ### Step 1: Load Data
-Load MNIST dataset
-Convert images to tensor
-Use DataLoader for batching
+- Load MNIST dataset
+- Convert images to tensor
+- Use DataLoader for batching
 
 ### Step 2: Add Noise
-Add Gaussian noise using torch.randn_like()
-Clamp values between 0 and 1
+- Add Gaussian noise using torch.randn_like()
+- Clamp values between 0 and 1
 
 ### Step 3: Build Model
-Encoder: Conv layers + ReLU
-Decoder: ConvTranspose layers + Sigmoid
+- Encoder: Conv layers + ReLU
+- Decoder: ConvTranspose layers + Sigmoid
 
 ### Step 4: Initialize Model
-Loss: MSELoss
-Optimizer: Adam
+- Loss: MSELoss
+- Optimizer: Adam
 
 ### Step 5: Train Model
-Input: Noisy image
-Output: Clean image
-Update weights using backpropagation
+- Input: Noisy image
+- Output: Clean image
+- Update weights using backpropagation
 
 ### Step 6: Test & Visualize
-Test on new images
-Show Original, Noisy, and Denoised images
+- Test on new images
+- Show Original, Noisy, and Denoised images
 
 ## RESULT
 The convolutional autoencoder successfully learned to remove noise from MNIST images.
